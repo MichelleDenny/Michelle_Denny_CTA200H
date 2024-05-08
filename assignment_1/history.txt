@@ -1,0 +1,63 @@
+  266  cd
+  267  ls
+  269  mkdir CTA200_2024
+  270  cd CTA200_2024
+  271  ls
+  272  mkdir assignment_1
+  273  touch README.md
+  274  ls
+  275  vi README.md
+  276  ls
+  290  cp /home/murray/Hello_world.c /home/student19/CTA200_2024/assignment_1
+  291  cp /home/murray/Hello_world.py /home/student19/CTA200_2024/assignment_1
+  296  ls
+  297  cd assignment_1
+  298  ls
+  300  mv Hello_world.c Hello_world_denny.c
+  301  mv Hello_world.py Hello_world_denny.py
+  302  gcc Hello_world_denny.c -o Hello_world.x
+  303  ls
+  304  Hello_world
+  305  Hello_world_denny
+  306  ls
+  307  cd CTA200_2024
+  308  ls
+  309  module load python
+  310  python
+  311  ./Hello_world_denny
+  312  ls
+  313  ./Hello_world
+  314  cd Hello_world.x
+  315  ls
+  316  cd assignment_1
+  317  cd
+  318  ls
+  320  cd CTA200_2024
+  321  ls
+  322  cd assignment_1
+  323  ls
+  324  ls -l
+  325  ./Hello_world
+  326  ./Hello_world.x
+  327  python Hello_world_denny.py
+  328  vi Hello_world_denny.py
+  329* 
+  330  vi Hello_world_denny.c
+  331  ./Hello_world.x
+  332  gcc Hello_world_denny.c -o output_c.txt
+  333  ./output_c.txt
+  334  ls
+  335  vi Hello_world_denny.c
+  336  gcc Hello_world_denny.c -o Hello_world_D.x
+  337  ./Hello_world_D.x > output_c.txt
+  338  ls
+  339  vi Hello_world_denny.py
+  340  python Hello_world_denny.py > output_python.txt
+  341  ls
+  342  echo outout_c.txt
+  343  echo output_c.txt
+  344  vi output_c.txt
+  345  vi output_py.txt
+  346  vi output_python.txt
+  347  history
+  348  history 100 > history.txt
